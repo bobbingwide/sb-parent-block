@@ -55,7 +55,7 @@ function sb_parent_block_block_init() {
 		'editor_script' => 'sb-parent-block-block-editor',
 		'editor_style'  => 'sb-parent-block-block-editor',
 		'style'         => 'sb-parent-block-block',
-		'render_callback'=>'sb-parent_block_dynamic_block',
+		'render_callback'=>'sb_parent_block_dynamic_block',
 		'attributes' => [
 			'className' => [ 'type' => 'string'],
 		]
