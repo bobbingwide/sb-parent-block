@@ -1,0 +1,14 @@
+{
+	"name": "sb/children-block",
+	"title": "Children block",
+	"category": "widgets",
+	"icon": "list-view",
+	"description": "List children of the current content as links.",
+	"textdomain": "sb-children-block",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
