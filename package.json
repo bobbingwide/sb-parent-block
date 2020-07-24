@@ -1,7 +1,7 @@
 {
-	"name": "children-block",
-	"version": "0.1.0",
-	"description": "List children of the current content as links.",
+	"name": "sb-parent-block",
+	"version": "0.4.0",
+	"description": "Show parent of the current content as a link.",
 	"author": "bobbingwide",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",

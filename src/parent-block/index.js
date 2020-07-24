@@ -32,7 +32,7 @@ import save from './save';
  *
  * @see https://developer.wordpress.org/block-editor/developers/block-api/#registering-a-block
  */
-registerBlockType( 'oik/parent-block', {
+registerBlockType( 'sb/parent-block', {
 	/**
 	 * This is the display title for your block, which can be translated with `i18n` functions.
 	 * The block inserter will show this name.
@@ -55,7 +55,7 @@ registerBlockType( 'oik/parent-block', {
 	 * An icon property should be specified to make it easier to identify a block.
 	 * These can be any of WordPress’ Dashicons, or a custom svg element.
 	 */
-	icon: 'list-view',
+	icon: 'link',
 
 	/**
 	 * Optional block extended support features.

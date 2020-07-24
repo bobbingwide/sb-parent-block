@@ -34,7 +34,7 @@ export default function edit ( { attributes, className, isSelected, setAttribute
 	return (
 		<Fragment>
 			<ServerSideRender
-				block="oik/parent-block" attributes={attributes}
+				block="sb/parent-block" attributes={attributes}
 			/>
 		</Fragment>
 	);

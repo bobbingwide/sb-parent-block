@@ -1,10 +1,10 @@
 {
-	"name": "sb/children-block",
-	"title": "Children block",
+	"name": "sb/parent-block",
+	"title": "Parent block",
 	"category": "widgets",
-	"icon": "list-view",
-	"description": "List children of the current content as links.",
-	"textdomain": "sb-children-block",
+	"icon": "link",
+	"description": "Display a link to the parent of the current content.",
+	"textdomain": "sb-parent-block",
 	"supports": {
 		"html": false
 	},
