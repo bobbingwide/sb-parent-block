@@ -2,7 +2,7 @@
 	"name": "sb/parent-block",
 	"title": "Parent block",
 	"category": "widgets",
-	"icon": "link",
+	"icon": "admin-links",
 	"description": "Display a link to the parent of the current content.",
 	"textdomain": "sb-parent-block",
 	"supports": {

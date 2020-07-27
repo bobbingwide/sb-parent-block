@@ -37,13 +37,13 @@ registerBlockType( 'sb/parent-block', {
 	 * This is the display title for your block, which can be translated with `i18n` functions.
 	 * The block inserter will show this name.
 	 */
-	title: __( 'Parent block', 'oik' ),
+	title: __( 'Parent block', 'sb-parent-block' ),
 
 	/**
 	 * This is a short description for your block, can be translated with `i18n` functions.
 	 * It will be shown in the Block Tab in the Settings Sidebar.
 	 */
-	description: __( 'Show parent of the current content as a link.', 'oik' ),
+	description: __( 'Show parent of the current content as a link.', 'sb-parent-block' ),
 
 	/**
 	 * Blocks are grouped into categories to help users browse and discover them.
@@ -55,7 +55,8 @@ registerBlockType( 'sb/parent-block', {
 	 * An icon property should be specified to make it easier to identify a block.
 	 * These can be any of WordPress’ Dashicons, or a custom svg element.
 	 */
-	icon: 'arrow-up-alt',
+	//icon: 'arrow-up-alt',
+	icon: 'admin-links',
 
 	/**
 	 * Optional block extended support features.
