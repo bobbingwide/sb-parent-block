@@ -36,7 +36,7 @@ Nothing will be displayed. The block will be empty.
 
 == Upgrade Notice ==
 = 0.4.0 =
-Use the Parent block (sb/parent-block) from the SB Parent block plugin to replace the Parent block previously delivered by Children block - oik/parent-block.
+Use the Parent block (sb/parent-block) from the SB Parent block plugin to replace the Parent block previously delivered by Children block ( oik/parent-block ).
 
 = 0.3.2 =
 Upgrade for some improved usage notes.
