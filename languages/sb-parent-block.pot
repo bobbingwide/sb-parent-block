@@ -1,0 +1,55 @@
+# Copyright (C) 2020 bobbingwide
+# This file is distributed under the same license as the SB Parent block plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: SB Parent block 0.5.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sb-parent-block\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-07-29T22:04:33+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: sb-parent-block\n"
+
+#. Plugin Name of the plugin
+msgid "SB Parent block"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.oik-plugins.com/oik-plugins/sb-parent-block"
+msgstr ""
+
+#. Description of the plugin
+msgid "Display a link to the parent"
+msgstr ""
+
+#. Author of the plugin
+msgid "bobbingwide"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.bobbingwide.com/about-bobbing-wide"
+msgstr ""
+
+#: sb-parent-block.php:82
+msgid "No parent"
+msgstr ""
+
+#: build/index.js:1
+msgid "Parent block"
+msgstr ""
+
+#: build/index.js:1
+msgid "Show parent of the current content as a link."
+msgstr ""
+
+#: build/index.js:1
+msgid "Parent"
+msgstr ""
+
+#: build/index.js:1
+msgid "Child of"
+msgstr ""
