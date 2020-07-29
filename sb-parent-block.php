@@ -36,6 +36,12 @@ function sb_parent_block_block_init() {
 		$script_asset['dependencies'],
 		$script_asset['version']
 	);
+	/*
+	 * Localise the script by loading the required strings for the build/index.js file
+	 * from the locale specific .json file in the languages folder
+	 */
+	$ok = wp_set_script_translations( 'sb-parent-block-block-editor', 'sb-parent-block' , $dir .'/languages' );
+
 
 	$editor_css = 'build/index.css';
 	wp_register_style(
@@ -66,15 +72,14 @@ function sb_parent_block_block_init() {
 add_action( 'init', 'sb_parent_block_block_init' );
 
 function sb_parent_block_dynamic_block( $attributes ) {
-
+	load_plugin_textdomain( 'sb-parent-block', false, 'sb-parent-block/languages' );
 	$id = wp_get_post_parent_id( null );
 	if ( $id ) {
 		$url = get_permalink( $id );
 		$title = get_the_title( $id );
 		$html = "<a href=\"$url\" >$title</a>";
 	} else {
-		$html = "No parent";
+		$html = __( "No parent", 'sb-parent-block' );
 	}
 	return $html;
-
 }
