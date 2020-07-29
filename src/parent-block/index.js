@@ -58,6 +58,12 @@ registerBlockType( 'sb/parent-block', {
 	//icon: 'arrow-up-alt',
 	icon: 'admin-links',
 
+	keywords: [
+		__( 'Parent', 'sb-parent-block' ),
+		__( 'Child of', 'sb-parent-block' ),
+
+	],
+
 	/**
 	 * Optional block extended support features.
 	 */

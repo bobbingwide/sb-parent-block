@@ -3,12 +3,9 @@
  *
  * @see https://developer.wordpress.org/block-editor/packages/packages-i18n/
  */
-import { __ } from '@wordpress/i18n';
 
 import { ServerSideRender } from '@wordpress/editor';
 import { Fragment} from '@wordpress/element';
-import { InspectorControls } from '@wordpress/block-editor';
-import { TextControl, PanelBody } from '@wordpress/components'
 
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
