@@ -72,8 +72,9 @@ registerBlockType( 'sb/parent-block', {
 		html: false,
 	},
 
-	attributes: {
 
+	attributes: {
+		noparent: { type: 'string', default: __('No parent', 'sb-parent-block' ) },
 	},
 
 	/**
