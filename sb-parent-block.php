@@ -66,11 +66,19 @@ function sb_parent_block_block_init() {
 		'render_callback'=>'sb_parent_block_dynamic_block',
 		'attributes' => [
 			'className' => [ 'type' => 'string'],
+			'noparent' => [ 'type' => 'string']
 		]
 	) );
 }
 add_action( 'init', 'sb_parent_block_block_init' );
 
+
+/**
+ * Displays a link to the parent or the user defined value for "No parent"
+ * @param $attributes
+ *
+ * @return mixed|string|void
+ */
 function sb_parent_block_dynamic_block( $attributes ) {
 	load_plugin_textdomain( 'sb-parent-block', false, 'sb-parent-block/languages' );
 	$id = wp_get_post_parent_id( null );
@@ -79,7 +87,13 @@ function sb_parent_block_dynamic_block( $attributes ) {
 		$title = get_the_title( $id );
 		$html = "<a href=\"$url\" >$title</a>";
 	} else {
-		$html = __( "No parent", 'sb-parent-block' );
+		$html = null;
+		if ( isset( $attributes['noparent'] ) ) {
+			$html=$attributes['noparent'];
+		}
+		$html = '<div>' . $html . '</div>';
+
+		// $html = __( "No parent", 'sb-parent-block' );
 	}
 	return $html;
 }
