@@ -11,7 +11,7 @@ msgstr ""
 "Language: en_GB\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-07-30T17:01:01+00:00\n"
+"POT-Creation-Date: 2020-08-03T18:56:45+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.4.0\n"
 "X-Domain: sb-parent-block\n"
@@ -35,23 +35,27 @@ msgstr "bobbingwide"
 msgid "https://www.bobbingwide.com/about-bobbing-wide"
 msgstr "https://www.bobbingwide.com/about-bobbing-wide"
 
-#: sb-parent-block.php:82
-msgid "No parent"
-msgstr "No parent"
+#: build/index.js:254
+msgid "'No parent' text"
+msgstr "'No parent' text"
 
-#: build/index.js:1
+#: build/index.js:332
 msgid "Parent block"
 msgstr "Parent block"
 
-#: build/index.js:1
+#: build/index.js:338
 msgid "Show parent of the current content as a link."
 msgstr "Show parent of the current content as a link."
 
-#: build/index.js:1
+#: build/index.js:352
 msgid "Parent"
 msgstr "Parent"
 
-#: build/index.js:1
+#: build/index.js:352
 msgid "Child of"
 msgstr "Child of"
+
+#: build/index.js:364
+msgid "No parent"
+msgstr "No parent"
 
