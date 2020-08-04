@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the SB Parent block plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: SB Parent block 0.5.1\n"
+"Project-Id-Version: SB Parent block 0.5.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/sb-parent-block\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -11,7 +11,7 @@ msgstr ""
 "Language: bb_BB\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-08-03T19:19:09+00:00\n"
+"POT-Creation-Date: 2020-08-04T13:44:55+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.4.0\n"
 "X-Domain: sb-parent-block\n"
@@ -40,32 +40,32 @@ msgid "https://www.bobbingwide.com/about-bobbing-wide"
 msgstr "https://www.bobbingwide.com/about-bobbing-wide"
 
 
-#: build/index.js:254
-msgid "'No parent' text"
-msgstr "'NO pranet' txet"
-
-
-#: build/index.js:332
+#: build/index.js:1
 msgid "Parent block"
 msgstr "Pranet bolck"
 
 
-#: build/index.js:338
+#: build/index.js:1
 msgid "Show parent of the current content as a link."
 msgstr "Sohw pranet Of thE cruernt cnoetnt As A lnik."
 
 
-#: build/index.js:352
+#: build/index.js:1
 msgid "Parent"
 msgstr "Pranet"
 
 
-#: build/index.js:352
+#: build/index.js:1
 msgid "Child of"
 msgstr "Cihld Of"
 
 
-#: build/index.js:364
+#: build/index.js:1
 msgid "No parent"
 msgstr "NO pranet"
+
+
+#: build/index.js:1
+msgid "'No parent' text"
+msgstr "'NO pranet' txet"
 
