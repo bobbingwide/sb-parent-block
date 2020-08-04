@@ -3,7 +3,7 @@ Contributors:      bobbingwide
 Tags:              block, parent, link
 Requires at least: 5.4.2
 Tested up to:      5.5-RC1
-Stable tag:        0.5.1
+Stable tag:        0.5.2
 Requires PHP:      7.2.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html

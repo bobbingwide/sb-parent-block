@@ -1,6 +1,6 @@
 {
 	"name": "sb-parent-block",
-	"version": "0.5.0",
+	"version": "0.5.2",
 	"description": "Show parent of the current content as a link.",
 	"author": "bobbingwide",
 	"license": "GPL-2.0-or-later",
