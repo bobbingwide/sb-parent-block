@@ -89,11 +89,11 @@ function sb_parent_block_dynamic_block( $attributes ) {
 	} else {
 		$html = null;
 		if ( isset( $attributes['noparent'] ) ) {
-			$html=$attributes['noparent'];
+			$html = $attributes['noparent'];
+		} else {
+			$html = __('No parent', 'sb-parent-block');
 		}
 		$html = '<div>' . $html . '</div>';
-
-		// $html = __( "No parent", 'sb-parent-block' );
 	}
 	return $html;
 }
