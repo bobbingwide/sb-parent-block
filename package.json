@@ -1,6 +1,6 @@
 {
 	"name": "sb-parent-block",
-	"version": "0.5.2",
+	"version": "0.5.3",
 	"description": "Show parent of the current content as a link.",
 	"author": "bobbingwide",
 	"license": "GPL-2.0-or-later",
@@ -18,9 +18,9 @@
 		"l10n": "l10n sb-parent-block"
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^12.1.1"
+		"@wordpress/scripts": "^26.18.0"
 	},
 	"dependencies": {
-		"@wordpress/server-side-render": "^1.16.3"
+		"@wordpress/server-side-render": "^4.24.0"
 	}
 }
