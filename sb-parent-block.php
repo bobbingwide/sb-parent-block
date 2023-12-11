@@ -3,7 +3,7 @@
  * Plugin Name:     SB Parent block
  * Plugin URI: 		https://www.oik-plugins.com/oik-plugins/sb-parent-block
  * Description:     Display a link to the parent
- * Version:         0.5.2
+ * Version:         0.5.3
  * Author:          bobbingwide
  * Author URI: 		https://www.bobbingwide.com/about-bobbing-wide
  * License:         GPL-2.0-or-later
